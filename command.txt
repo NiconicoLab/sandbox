@@ -10,3 +10,12 @@ git push -u origin main :こちらでもOK
 
 ■ README.mdというファイルを削除する
 git rm README.md
+
+■ 
+
+■ 
+
+■ 
+
+■ 
+
