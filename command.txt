@@ -11,7 +11,11 @@ git push -u origin main :こちらでもOK
 ■ README.mdというファイルを削除する
 git rm README.md
 
-■ 
+■ リモート(origin)の情報を取得
+git fetch origin
+git fetch origin master :masterブランチのみ取得
+git fetch --all :originに限らずリモートの全てのブランチ情報を取得
+git fetch :省略した場合はgit fetch originと同じ意味
 
 ■ 
 
