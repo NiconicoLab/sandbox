@@ -2,7 +2,8 @@
 git branch main
 
 ■ mainという名前のブランチを作成し，そのブランチへ切り替える
-git checkout -b main
+git checkout -b main master :masterブランチからmainブランチを作成
+git checkout -b main :今いるブランチから作成する場合は省略可能
 
 ■ remoteへ反映させる(1回目のみ-uが必須となる)
 git push -u origin HEAD
