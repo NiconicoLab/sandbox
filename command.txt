@@ -24,3 +24,7 @@ git fetch :省略した場合はgit fetch originと同じ意味
 
 ■ 
 
+■
+
+■
+
