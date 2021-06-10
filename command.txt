@@ -18,7 +18,19 @@ git fetch origin master :masterブランチのみ取得
 git fetch --all :originに限らずリモートの全てのブランチ情報を取得
 git fetch :省略した場合はgit fetch originと同じ意味
 
-■ 
+■ パッチファイル
+- パターン1 
+git diff --no-prefix > diff.patch
+patch -p0 < diff.patch
+
+- パターン2
+git diff > diff.patch
+patch -p1 < diff.patch
+
+- パターン3
+git format-patch -o patch 12345 #12345からのHEAD までのコミット
+git am diff.patch
+git am -3 diff.patch #-3オプションにより修正されたファイルに対してパッチを適用
 
 ■ 
 
