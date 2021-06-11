@@ -32,6 +32,10 @@ git format-patch -o patch 12345 #12345からのHEAD までのコミット
 git am diff.patch
 git am -3 diff.patch #-3オプションにより修正されたファイルに対してパッチを適用
 
+- パターン3の別例
+git format-patch -1 #"-1"オプションをつけることで最新一個分のパッチに指定可能
+git format-patch -3 tmp.txt #最新からのパッチ工数だけでなく，ファイル名も指定可能
+
 ■ 
 
 ■ 
