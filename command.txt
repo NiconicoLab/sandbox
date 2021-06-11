@@ -36,7 +36,16 @@ git am -3 diff.patch #-3オプションにより修正されたファイルに�
 git format-patch -1 #"-1"オプションをつけることで最新一個分のパッチに指定可能
 git format-patch -3 tmp.txt #最新からのパッチ工数だけでなく，ファイル名も指定可能
 
-■ 
+■ ブランチをマージする(workブランチへmainブランチの内容を反映させる)
+# mainブランチへスイッチして，mainブランチの変更を行う
+git checkout main
+git add sample.txt
+git commit -m "add sample.txt"
+git push origin HEAD
+# workブランチへスイッチする
+git checkout work
+# マージ作業
+git merge main
 
 ■ 
 
