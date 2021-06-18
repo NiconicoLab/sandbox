@@ -47,7 +47,13 @@ git checkout work
 # マージ作業
 git merge main
 
-■ 
+■ コミット取り消し
+# ローカルの変更も戻す
+git reset --hard HEAD^
+# ローカルの変更とステージングは戻さない
+git reset --soft HEAD^
+# ローカルの変更などは変更せずに複数のコミットを取り消す
+git reset --soft HEAD~2
 
 ■
 
