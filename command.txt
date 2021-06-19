@@ -9,6 +9,9 @@ git checkout -b main :今いるブランチから作成する場合は省略可�
 git push -u origin HEAD
 git push -u origin main :こちらでもOK
 
+■ remoteの情報をfetch & mergeする
+git pull origin master :masterブランチにおける実行例
+
 ■ README.mdというファイルを削除する
 git rm README.md
 
