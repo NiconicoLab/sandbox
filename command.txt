@@ -11,6 +11,9 @@ git push -u origin main :こちらでもOK
 
 ■ remoteの情報をfetch & mergeする
 git pull origin master :masterブランチにおける実行例
+# git pull相当を別コマンドで行う
+git fetch
+git merge origin/master
 
 ■ README.mdというファイルを削除する
 git rm README.md
