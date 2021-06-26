@@ -61,7 +61,8 @@ git reset --soft HEAD^
 # ローカルの変更などは変更せずに複数のコミットを取り消す
 git reset --soft HEAD~2
 
-■
+■ コミットメッセージを修正する
+git commit --amend
 
 ■
 
