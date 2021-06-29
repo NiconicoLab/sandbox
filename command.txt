@@ -64,5 +64,7 @@ git reset --soft HEAD~2
 ■ コミットメッセージを修正する
 git commit --amend
 
-■
+■ コミットのログのグラフを表示する
+git log --graph --oneline --decorate=full
 
+■ 
