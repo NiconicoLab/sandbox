@@ -71,4 +71,5 @@ git log --graph --oneline --decorate=full
 git mv file1 file2
 git mv directory1 directory2
 
-■ 
+■ 現在どんなURLでcloneしたか確認する
+git remote -v
