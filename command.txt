@@ -73,3 +73,7 @@ git mv directory1 directory2
 
 ■ 現在どんなURLでcloneしたか確認する
 git remote -v
+
+■ 追跡されていないファイルを表示
+git ls-files --others --exclude-standard
+--exclude-standardのオプションは.gitignoreで無視されているファイルは除外
