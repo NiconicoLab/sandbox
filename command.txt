@@ -77,3 +77,8 @@ git remote -v
 ■ 追跡されていないファイルを表示
 git ls-files --others --exclude-standard
 --exclude-standardのオプションは.gitignoreで無視されているファイルは除外
+
+■ ローカルの変更をもとに戻す
+git checkout . #全て
+git checkout filename #特定のファイル
+
