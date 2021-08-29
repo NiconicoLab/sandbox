@@ -82,3 +82,5 @@ git ls-files --others --exclude-standard
 git checkout . #全て
 git checkout filename #特定のファイル
 
+■ 過去の日時でコミットを行う(2121/8/28の例)
+git commit -m "commit msg" --date="Aug 28 12:00:00 2021 +0900"
