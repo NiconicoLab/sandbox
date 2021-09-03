@@ -84,3 +84,7 @@ git checkout filename #特定のファイル
 
 ■ 過去の日時でコミットを行う(2121/8/28の例)
 git commit -m "commit msg" --date="Aug 28 12:00:00 2021 +0900"
+
+■ 差分のあるファイル一覧表示
+git diff --name-only <commit> <commit>
+git diff --name-only a487032814186745adb5f673f7315d407f7a10dd db101e2796115f44bb27107852bb1d33cd580cba
