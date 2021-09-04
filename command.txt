@@ -65,6 +65,7 @@ git reset --soft HEAD~2
 git commit --amend
 
 ■ コミットのログのグラフを表示する
+git log --graph
 git log --graph --oneline --decorate=full
 
 ■ フォルダ構成/追跡を変更せずファイル/ディレトリ名を変更
