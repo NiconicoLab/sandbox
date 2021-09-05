@@ -67,6 +67,8 @@ git commit --amend
 ■ コミットのログのグラフを表示する
 git log --graph
 git log --graph --oneline --decorate=full
+# 変更量のみ表示
+git log --graph
 
 ■ フォルダ構成/追跡を変更せずファイル/ディレトリ名を変更
 git mv file1 file2
