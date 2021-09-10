@@ -70,6 +70,9 @@ git log --graph --oneline --decorate=full
 # 変更量のみ表示
 git log --graph
 
+■ コミットのログを見る
+git log -p -2 #直近の2個のみ見る
+
 ■ フォルダ構成/追跡を変更せずファイル/ディレトリ名を変更
 git mv file1 file2
 git mv directory1 directory2
@@ -91,3 +94,5 @@ git commit -m "commit msg" --date="Aug 28 12:00:00 2021 +0900"
 ■ 差分のあるファイル一覧表示
 git diff --name-only <commit> <commit>
 git diff --name-only a487032814186745adb5f673f7315d407f7a10dd db101e2796115f44bb27107852bb1d33cd580cba
+
+■ 
