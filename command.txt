@@ -72,6 +72,7 @@ git log --graph
 
 ■ コミットのログを見る
 git log -p -2 #直近の2個のみ見る
+git log --oneline #ログ一覧を表示
 
 ■ フォルダ構成/追跡を変更せずファイル/ディレトリ名を変更
 git mv file1 file2
