@@ -97,5 +97,3 @@ git diff --name-only <commit> <commit>
 git diff --name-only a487032814186745adb5f673f7315d407f7a10dd db101e2796115f44bb27107852bb1d33cd580cba
 
 ■ 
-
-■ revert test
