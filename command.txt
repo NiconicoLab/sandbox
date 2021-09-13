@@ -15,6 +15,10 @@ git pull origin master :masterブランチにおける実行例
 git fetch
 git merge origin/master
 
+■ pushをrevertする
+git revert 47a58e3c0c230b34630559bfd9b5b249
+47a58e3c0c230b34630559bfd9b5b249はSHA-1
+
 ■ README.mdというファイルを削除する
 git rm README.md
 
